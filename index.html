@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style></style>
+            </head>
+            <body>
+                
+
+
+    <meta charset="UTF-8">
+<title>請假理由大全</title>
+
+
+    <center>
+<h1>👩🏻‍🎓同學仔請假理由大全👨🏻‍🎓</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIRPz8S5UnR7yprasSyh39UUoI7h4U3uqLGQ&amp;s" width="70%"><br>
+<button onclick="thinking()">Professor，我想請假！😭</button>
+<p id="result">我未做assignment</p>
+    </center>
+
+
+                <script>var reasons= [
+    "我俾張被綁架",
+    "大老山好塞",
+    "我要去漫展",
+    "我未做assignment",
+    "我今日返學過敏",
+    "我姨媽姑姐定唔知表姨媽今日結婚",
+    "我要去拯救世界",
+    "星座運程話我今日不宜返學"
+]
+
+function thinking(){
+    var random = parseInt(Math.random() * 8);
+    document.getElementById("result").innerText = reasons[random];
+}</script>
+            
+        
+    </body>
